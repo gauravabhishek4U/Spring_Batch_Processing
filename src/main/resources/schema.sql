@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS products
 (
-    productId int primary key,
+    productId varchar(100) primary key,
     title varchar(200),
     description varchar(200),
     price varchar(10),

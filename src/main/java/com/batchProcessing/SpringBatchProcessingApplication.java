@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBatchProcessingApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBatchProcessingApplication.class, args);
+		SpringApplication.exit(SpringApplication.run(SpringBatchProcessingApplication.class, args));
 	}
 
 }
